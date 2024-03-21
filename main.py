@@ -19,7 +19,7 @@ while True: # Using Infinity Loop to keep the purchases going until a condition 
         price = Decimal(input(f"Enter price of '{item}': $")) #
         print("\nEnter another item to buy (type 'done' when finished):")
 
-    # Append method basically add elements to our array , targeting item & price array 
+    # Append method basically add elements to our array , targeting item & price array
         items.append(item)
         prices.append(price)
 
